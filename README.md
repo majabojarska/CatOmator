@@ -1,4 +1,4 @@
-# CatOmater
+# CatOmator
 
 Automated laser turret cat toy
 
