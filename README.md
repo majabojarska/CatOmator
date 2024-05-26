@@ -18,7 +18,9 @@ See photos in [Super Ultra Compact Pan/Tilt Camera Mount - V2](https://www.thing
 
 ## Upload
 
-See ESPHome's [getting started guide](https://esphome.io/guides/getting_started_command_line) to learn how to build and upload this project to your ESP8266 module.
+Populate [`secrets.yaml`](./secrets.yaml) with your secrets before compiling.
+
+See ESPHome's [getting started guide](https://esphome.io/guides/getting_started_command_line) to learn how to compile and upload this project to your ESP8266 module.
 
 ## Attributions
 
