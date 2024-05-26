@@ -15,11 +15,7 @@ jobs:
 
       - uses: actions/setup-python@v5
         with:
-          python-version: '3.12'
           cache: 'pip'
-
-      - name: Install ESPHome
-        run: pip install esphome
 
       - name: Validate ESPHome config
         run: esphome config cat-laser.yaml
