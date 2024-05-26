@@ -12,6 +12,14 @@ Automated laser turret cat toy
 | TODO: Laser driver circuit parts |        |
 | TODO: Screws, bolts              |        |
 
+## Assembly
+
+See photos in [Super Ultra Compact Pan/Tilt Camera Mount - V2](https://www.thingiverse.com/thing:1799905).
+
+## Upload
+
+See ESPHome's [getting started guide](https://esphome.io/guides/getting_started_command_line) to learn how to build and upload this project to your ESP8266 module.
+
 ## Attributions
 
 - Based on [The CatOmater on Printables.com](https://www.printables.com/model/579611-the-catomater-v-18-a-cat-automater-maybe-ceilingwa).
