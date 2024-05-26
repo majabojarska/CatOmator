@@ -1,5 +1,5 @@
 esphome:
-  name: cat-laser
+  name: catomator
   friendly_name: Cat Laser
 
 esp8266:
