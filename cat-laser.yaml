@@ -16,7 +16,7 @@ web_server:
 
 api:
   encryption:
-    key: !secret hass_api_key
+    key: !secret api_key
 
   services:
     - service: servo_y
