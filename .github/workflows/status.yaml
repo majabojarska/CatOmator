@@ -1,0 +1,24 @@
+name: Status
+
+on:
+  push:
+    branches:
+      - 'main'
+  pull_request:
+
+jobs:
+  validate_config:
+    name: Validate ESPHome configuration
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+
+      - run: pip install wheel
+
+      - name: Install ESPHome
+        run: pip install esphome
+
+      - name: Validate ESPHome config
+        run: esphome config cat-laser.yaml
