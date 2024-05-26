@@ -2,6 +2,10 @@
 
 Automated laser turret cat toy
 
+![](./images/placeholder.jpg)
+
+> DISCLAIMER: Due to the lack of real-life pictures at hand, I took some liberties with the choice of visual depiction.
+
 ## BOM
 
 | Item                             | Amount |
@@ -16,7 +20,7 @@ Automated laser turret cat toy
 
 See photos in [Super Ultra Compact Pan/Tilt Camera Mount - V2](https://www.thingiverse.com/thing:1799905).
 
-## Upload
+## Compilation and uploading
 
 Populate [`secrets.yaml`](./secrets.yaml) with your secrets before compiling.
 
